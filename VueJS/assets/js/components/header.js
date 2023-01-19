@@ -3,17 +3,7 @@ import { Nav } from './nav.js'
 let Header = {  
     data() {  
         return {  
-            lists : [  
-                {  
-                    text : "Accueil"
-                },
-                {  
-                    text : "A Propos"   
-                },  
-                {  
-                    text : "Contact"
-                }  
-            ] 
+            titles : ["Accueil", "A propos", "Contact"] 
         } ;
     },  
     
@@ -23,7 +13,7 @@ let Header = {
     
     template : `
     <header>
-    <Nav/>
+    <Nav :titles="this.titles"/>
     </header>
     `
 };

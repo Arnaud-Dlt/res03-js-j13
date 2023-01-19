@@ -2,9 +2,10 @@ let Nav = {
     data() {  
         return {  
         };
-    },  
+    },
+    
     props : [  
-        "text"
+        "titles"
     ], 
     
     template : `
