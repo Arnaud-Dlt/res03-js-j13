@@ -1,0 +1,16 @@
+
+
+header {
+    width:100vw;
+    min-height:10vh;
+}
+
+main {
+    width:100vw;
+    min-height:85vh;
+}
+
+footer {
+    width:100vw;
+    min-height:5vh;
+}
